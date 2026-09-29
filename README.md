@@ -1,11 +1,6 @@
 # Support Operations Intelligence
 
-Support Operations Intelligence (SOI) is a research-engineering project
-examining how operational source evidence can move through a disciplined chain
-toward diagnosis, intervention selection, implementation, and evaluation. The
-repository has established the evidence-establishment and
-representation-audit stages of that chain; it has not yet established an
-operational interpretation or a justified intervention.
+Support Operations Intelligence (SOI) is a reproducible data-engineering and evidence-audit project over 7,474,403 public Calgary 311 service records. It demonstrates contract-based ingestion, deterministic validation, full-artifact baselines, and a source-quality audit in Python, backed by a 218-test regression suite. It deliberately stops before operational interpretation: it has not diagnosed a service problem or selected any intervention.
 
 ```mermaid
 flowchart LR
